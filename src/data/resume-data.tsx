@@ -13,23 +13,23 @@ import {
   MonitoLogo,
   ParabolLogo,
   TastyCloudLogo,
-  YearProgressLogo
+  YearProgressLogo,
 } from "@/images/logos";
 import { InstagramIcon } from "lucide-react";
 
 export const RESUME_DATA = {
   name: "Ariel Ribeiro",
   initials: "AR",
-  location: "São José dos Campos, SP, Brazil, BRT",
+  location: "São José dos Campos, SP, Brazil, BRT Timezone",
   locationLink: "https://www.google.com/maps/place/São+José+dos+Campos",
-  about:
-    "Senior Software Engineer",
+  about: "Senior Frontend Engineer",
+  summaryTitle: "About",
   summary:
-    "Between 2010 and 2018, I developed several websites as a Web Developer. After that, I started my career as a Front End Engineer. I have successfully taken multiple products from 0 to 1. I lead a team effectively, ensuring an environment where people can do their best work. Currently, I work with TypeScript, Angular, .NET, and Java.",
+    "I have developed several websites since 2010. After some years, I started my career as a Front End Engineer. I have successfully taken multiple products from Figma to code. I lead a team effectively, ensuring an environment where people can do their best work. I have 15 year as a UI Developer, creating beautiful pages and applications.",
   avatarUrl: "https://github.com/arielribeiror.png",
   personalWebsiteUrl: "https://arielribeiro.com",
   contact: {
-    email: "hello@arielribeiro.com",
+    email: "ariiel.ribeiro@gmail.com",
     tel: "+55 12 98868-8457",
     social: [
       {
@@ -49,6 +49,7 @@ export const RESUME_DATA = {
       },
     ],
   },
+  educationTitle: "Education",
   education: [
     {
       school: "Faculdade de Informática e Administração Paulista (FIAP)",
@@ -63,28 +64,40 @@ export const RESUME_DATA = {
       end: "2012",
     },
   ],
+  workTitle: "Work Experience",
   work: [
+    {
+      company: "AS2 Group",
+      link: "https://www.as2group.com.br/",
+      badges: ["Remote"],
+      title: "Frontend Tech Lead",
+      logo: "",
+      start: "Nov 2024",
+      end: "Today",
+      description:
+        "This time, with a much more technical approach than before, I was invited to lead a team of frontend developers and the UX team (due to my familiarity with design). I created a 2.0 version of a project, to become a product, using Nx, React, Shadcn, TailwindCSS, Jest, and Cypress.",
+    },
     {
       company: "Tata Consultancy Services",
       link: "https://www.tcs.com/",
       badges: ["Remote"],
-      title: "Senior Software Engineer",
+      title: "UI Developer | Senior Software Engineer",
       logo: "",
       start: "May 2022",
-      end: "Current",
+      end: "Nov 2024",
       description:
-        "Developing a B2B product of a Major Brazilian bank with millions of users and billions of YRR. Tecnhologies: Angular, Karma, Jest, Cypress, .NET and Java.",
+        "Developing a B2B product from Figma to code of a Major Brazilian bank with millions of users and billions of YRR. Tecnhologies: Angular, HTML, CSS, Karma, Cypress.",
     },
     {
       company: "AS2 Group",
       link: "https://www.as2group.com.br/",
       badges: ["Remote"],
-      title: "Frontend Developer → Lead Frontend",
+      title: "UI Developer → Lead Frontend",
       logo: "",
       start: "Jul 2018",
       end: "May 2022",
       description:
-        "I designed application layouts and developed them from the ground up. As the team grew and our responsibilities increased, I was invited to become the technical leader.",
+        "I designed application layouts with Adobe XD and Figma and developed them from the ground up. As the team grew and our responsibilities increased, I was invited to become the technical leader.",
     },
     {
       company: "Caxola Estúdio Criativo",
@@ -95,7 +108,7 @@ export const RESUME_DATA = {
       start: "Sep 2014",
       end: "Jul 2018",
       description:
-        "I possess a strong background in UX/UI, coupled with expertise in front-end development. My experience in these fields has enabled me to create user-friendly and responsive websites.",
+        "I had a strong background in UX/UI, coupled with expertise in front-end development. My experience in these fields has enabled me to create user-friendly and responsive websites.",
     },
     {
       company: "Coruja Web",
@@ -105,7 +118,8 @@ export const RESUME_DATA = {
       logo: "",
       start: "Jun 2013",
       end: "Sep 2014",
-      description: "Creating and developing websites and landing pages as a freelancer.",
+      description:
+        "Creating and developing websites and landing pages as a freelancer.",
     },
     {
       company: "WF7 Softwares",
@@ -115,17 +129,8 @@ export const RESUME_DATA = {
       logo: "",
       start: "Jul 2012",
       end: "May 2013",
-      description: "I personally made several visits to conduct a thorough analysis of a cutting-edge system currently being developed to assist healthcare centers in prioritizing patient care.",
-    },
-    {
-      company: "Vínculo Consultoria e Marketing",
-      link: "https://www.vinculoconsultoria.com/",
-      badges: [],
-      title: "Web Designer",
-      logo: "",
-      start: "Mar 2012",
-      end: "Jul 2012",
-      description: "I worked on front-end development of institutional websites. I introduced good development practices, as outdated practices were used to structure projects (tables to tableless).",
+      description:
+        "I personally made several visits to conduct a thorough analysis of a cutting-edge system currently being developed to assist healthcare centers in prioritizing patient care.",
     },
   ],
   skills: [

@@ -13,7 +13,7 @@ import {
   MonitoLogo,
   ParabolLogo,
   TastyCloudLogo,
-  YearProgressLogo
+  YearProgressLogo,
 } from "@/images/logos";
 import { InstagramIcon } from "lucide-react";
 
@@ -22,10 +22,10 @@ export const RESUME_DATA_PT_BR = {
   initials: "AR",
   location: "São José dos Campos, SP, Brasil",
   locationLink: "https://www.google.com/maps/place/São+José+dos+Campos",
-  about:
-    "Desenvolvedor de Software Senior",
+  about: "Senior Frontend Engineer",
+  summaryTitle: "Sobre Mim",
   summary:
-    "Entre 2010 e 2018, eu desenvolvi diversos websites como Desenvolvedor Web. Depois disso, eu iniciei minha carreira como Desenvolvedor Front End. Eu desenvolvi múltiplos produtos de 0 a 1. Eu lideirei um time efetivamente, garantindo um ambiente onde as pessoas podem fazer seus melhores trabalhos. Atualmente, eu trabalho com TypeScript, Angular, .NET, e Java.",
+    "Entre 2010 e 2018, eu desenvolvi diversos websites como Desenvolvedor Web. Depois disso, iniciei minha carreira como Desenvolvedor Front-end. Desenvolvi múltiplos produtos do 0 ao 1. Lidero um time, garantindo um ambiente onde as pessoas possam fazer seus melhores trabalhos. Atualmente, eu trabalho com TypeScript, React e Angular.",
   avatarUrl: "https://github.com/arielribeiror.png",
   personalWebsiteUrl: "https://arielribeiro.com",
   contact: {
@@ -49,6 +49,7 @@ export const RESUME_DATA_PT_BR = {
       },
     ],
   },
+  educationTitle: "Educação",
   education: [
     {
       school: "Faculdade de Informática e Administração Paulista (FIAP)",
@@ -63,7 +64,19 @@ export const RESUME_DATA_PT_BR = {
       end: "2012",
     },
   ],
+  workTitle: "Experiência Profissional",
   work: [
+    {
+      company: "AS2 Group",
+      link: "https://www.as2group.com.br/",
+      badges: ["Remoto"],
+      title: "Frontend Tech Lead",
+      logo: "",
+      start: "Nov 2024",
+      end: "Atual",
+      description:
+        "Dessa vez, com uma abordagem muito mais técnica que a anterior, fui convidado para liderar um time de desenvolvedores frontend e o time de UX (por conta da familiaridade com design). Criando uma versão 2.0 de um projeto, para se tornar produto, utilizando Nx, React, Shadcn, TailwindCSS, Jest e Cypress.",
+    },
     {
       company: "Tata Consultancy Services",
       link: "https://www.tcs.com/",
@@ -71,9 +84,9 @@ export const RESUME_DATA_PT_BR = {
       title: "Senior Software Engineer",
       logo: "",
       start: "Mai 2022",
-      end: "Atual",
+      end: "Nov 2024",
       description:
-        "Desenvolvendo um produto B2B de um grande banco brasileiro com milhões de usuários e bilhões em faturamento anual. Tecnologias: Angular, Karma, Jest, Cypress, .NET e Java.",
+        "Desenvolvendo um produto de meios de pagamento B2B de um grande banco brasileiro com milhões de usuários e bilhões em faturamento anual. Tecnologias: Angular, Karma, Jest, Cypress, .NET e Java.",
     },
     {
       company: "AS2 Group",
@@ -105,7 +118,8 @@ export const RESUME_DATA_PT_BR = {
       logo: "",
       start: "Jun 2013",
       end: "Set 2014",
-      description: "Criei e desenvolvi websites e landing pages como freelancer.",
+      description:
+        "Criei e desenvolvi websites e landing pages como freelancer.",
     },
     {
       company: "WF7 Softwares",
@@ -115,17 +129,8 @@ export const RESUME_DATA_PT_BR = {
       logo: "",
       start: "Jul 2012",
       end: "Mai 2013",
-      description: "Fiz diversas viagens pelo Brasil para conduzir, através da análise, um sistema que estava sendo desenvolvido para assistir centros de unidade de saúde priorizando o cuidado dos pacientes.",
-    },
-    {
-      company: "Vínculo Consultoria e Marketing",
-      link: "https://www.vinculoconsultoria.com/",
-      badges: [],
-      title: "Web Designer",
-      logo: "",
-      start: "Mar 2012",
-      end: "Jul 2012",
-      description: "Trabalhei no desenvolvimento front-end de sites institucionais. Introduzi boas práticas de desenvolvimento, pois práticas desatualizadas de estrutura de projetos eram utilizadas (tables to tableless).",
+      description:
+        "Fiz diversas viagens pelo Brasil para conduzir, através da análise, um sistema que estava sendo desenvolvido para assistir centros de unidade de saúde priorizando o cuidado dos pacientes.",
     },
   ],
   skills: [
